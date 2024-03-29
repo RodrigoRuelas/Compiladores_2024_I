@@ -1,0 +1,8 @@
+Aqui, presento las modificaciones que he realizado a los tokens y sus expresiones regulares.
+
+1.  Los tokens de Funciones y Variables se han fusionado, convirtiendose en ID, esto porque ambos tokens son definidos por el usuario que da el nombre de las variables y las funciones. 
+    Su expresion regular es: [a-zA-Z]([a-zA-Z]|[0-9])*
+2.  Los tokens de Num y Num_Dec se han fusionado, convirtiendose en Num, esto porque ambos tokens pertenecen a una conjunto de numeros en general.
+    Su expresion regular es: ([0-9])+('.'[0-9]+)?
+3.  Se añadio el token Romper, inspirado en la palabra clave 'break' de C++.
+4.  Se modificaron la modificacion de algunos tokens, para ello, puede consultar al documento excel que se añadio, para ver los cambios en general.
