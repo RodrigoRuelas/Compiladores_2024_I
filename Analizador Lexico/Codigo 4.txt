@@ -1,0 +1,21 @@
+Inicio
+	float limit = 1000
+	float aprox
+	float aproxA = 0
+	float Total
+	Para(int i=0, i<=15, i++)
+		aprox = aprox + (i * 1.5)
+		Si (aproxA <> 0)
+			Total = aprox + aproxA
+			aproxA = aprox
+		SN
+			Total = 0
+			aproxA = aprox
+		FSi
+
+		Si (Total < limit)
+			Romper
+		FSi
+		Mostrar Total
+	FPara
+Fin

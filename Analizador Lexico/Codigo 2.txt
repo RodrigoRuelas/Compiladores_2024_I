@@ -1,0 +1,13 @@
+Inicio
+	int f = 1
+	int a
+	
+	Mostrar "Ingresar numero"
+	Leer a
+	
+	Para (int i=1, i<=x, i++)
+		f = f * i
+	FinPara
+
+	Mostrar f
+Fin

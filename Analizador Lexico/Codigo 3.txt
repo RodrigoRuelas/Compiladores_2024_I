@@ -1,0 +1,17 @@
+Inicio Factorial(int x)
+	int f
+	Si (x == 0)
+		Retornar 1
+	SiNo
+		Retornar x*Factorial(x-1)
+	FinSi
+Fin Factorial
+
+Inicio
+	int a
+	
+	Mostrar "Ingresar numero"
+	Leer a
+
+	Mostrar Factorial(a)
+Fin

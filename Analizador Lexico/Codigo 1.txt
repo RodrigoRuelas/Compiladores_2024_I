@@ -1,0 +1,3 @@
+Inicio
+	Mostrar "Hola mundo"
+Fin
