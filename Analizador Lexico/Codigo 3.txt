@@ -2,9 +2,9 @@ Inicio Factorial(int x)
 	int f
 	Si (x == 0)
 		Retornar 1
-	SiNo
+	SN
 		Retornar x*Factorial(x-1)
-	FinSi
+	FSi
 Fin Factorial
 
 Inicio
