@@ -7,7 +7,7 @@ Inicio
 	
 	Para (int i=1, i<=a, i++)
 		f = f * i
-	FinPara
+	FPara
 
 	Mostrar f
 Fin
