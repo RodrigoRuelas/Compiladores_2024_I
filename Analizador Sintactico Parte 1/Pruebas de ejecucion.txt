@@ -1,0 +1,19 @@
+Prueba 1
+Codigo: int id = num - (num + (num * id) / id) - num
+Gramatica: A_int ID S_igual Num S_res Sig_( Num S_sum Sig_( Num S_multi ID Sig_) S_div ID Sig_) S_res Num
+
+Prueba 2
+Codigo: bool id = True
+Gramatica: A_bool ID S_igual Bool_True
+
+Prueba 3
+Codigo: string id = "Hola Mundo"
+Gramatica: A_string ID S_igual Tex
+
+Prueba 4
+Codigo: float id = ( (num + id) )
+Gramatica: A_float ID S_igual Sig_( Sig_( Num S_sum ID Sig_) Sig_)
+
+Prueba 5
+Codigo: int id = ( (num + id) ) / (id - num + num)
+Gramatica: A_float ID S_igual Sig_( Sig_( Num S_sum ID Sig_) Sig_) S_div Sig_( ID S_res Num S_sum Num Sig_)
