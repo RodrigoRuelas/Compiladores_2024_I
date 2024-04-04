@@ -1,0 +1,26 @@
+S -> A ID E
+
+A -> A_int
+A -> A_float
+A -> A_bool
+A -> A_string
+
+E -> S_igual V 
+E -> ''
+
+V -> Sig_( V Sig_) V1
+V -> ID V1
+V -> Num V1
+V -> Tex
+V -> B 
+
+V1 -> OP V
+V1 -> ''
+
+B -> Bool_True
+B -> Bool_False
+
+OP -> S_sum
+OP -> S_res
+OP -> S_multi
+OP -> S_div
