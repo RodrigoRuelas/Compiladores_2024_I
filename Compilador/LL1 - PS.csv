@@ -1,0 +1,34 @@
+,T_Inicio,T_Fin,T_Funcion,IFD,T_FinFuncion,S_lpar,S_rpar,ID,S_coma,P_Mostrar,Tex,Num,S_sum,A_int,A_float,A_string,A_bool,Bool_True,Bool_False,S_igual,S_res,S_multi,S_div,C_Si,C_FinSi,C_SiNo,C_Mientras,C_FinMientras,C_Para,C_FinPara,S_mayor,S_menor,S_mayorI,S_menorI,S_igualdad,S_desigualdad,S_And,S_Or,S_ascender,S_descender,P_Leer,P_Retornar,P_Romper,$
+S,T_Inicio E T_Fin, -,T_Funcion IFD PARAMETRO E T_FinFuncion S,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+PARAMETRO, -, -, -, -, -,S_lpar PAR S_rpar, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+PAR, -, -, -, -, -, -, -, -, -, -, -, -, -,AT ID PAR2,AT ID PAR2,AT ID PAR2,AT ID PAR2, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+PAR2, -, -, -, -, -, -,e, -,S_coma PAR, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+E, -,e, -,FUNCION E,e, -, -,ACCION, -,MOSTRAR, -, -, -,VARIABLE,VARIABLE,VARIABLE,VARIABLE, -, -, -, -, -, -,CONTROL,e,e,CONTROL,e,CONTROL,e, -, -, -, -, -, -, -, -, -, -,LEER,RETORNAR,ROMPER, -
+MOSTRAR, -, -, -, -, -, -, -, -, -,P_Mostrar MOS1 E, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+MOS1, -, -, -,FUNCION MOS2,e, -, -,ID MOS2, -, -,Tex MOS2,Num MOS2, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+MOS2, -,e, -,e, -, -, -,e, -,e, -, -,S_sum MOS1,e,e,e,e, -, -, -, -, -, -,e,e,e,e,e,e,e, -, -, -, -, -, -, -, -, -, -,e,e,e, -
+VARIABLE, -, -, -, -, -, -, -, -, -, -, -, -, -,AT ID EX E,AT ID EX E,AT ID EX E,AT ID EX E, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+AT, -, -, -, -, -, -, -, -, -, -, -, -, -,A_int,A_float,A_string,A_bool, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+B, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,Bool_True,Bool_False, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+EX, -,e, -,e,e, -, -,e, -,e, -, -, -,e,e,e,e, -, -,S_igual VALOR, -, -, -,e,e,e,e,e,e,e, -, -, -, -, -, -, -, -, -, -,e,e,e, -
+VALOR, -, -, -,FUNCION VALOR1, -,S_lpar VALOR S_rpar VALOR1, -,ID VALOR1, -, -,Tex VALOR1,Num VALOR1, -, -, -, -, -,B,B, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+VALOR1, -,e, -,e,e, -,e,e,e,e, -, -,OP VALOR,e,e,e,e, -, -, -,OP VALOR,OP VALOR,OP VALOR,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e, -, -,e,e,e, -
+OP, -, -, -, -, -, -, -, -, -, -, -, -,S_sum, -, -, -, -, -, -, -,S_res,S_multi,S_div, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+ACCION, -, -, -, -, -, -, -,ID S_igual VALOR E, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+CONTROL, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,SI, -, -,MIENTRAS, -,PARA, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+SI, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,C_Si CONDICION E SINO C_FinSi E, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+SINO, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,e,C_SiNo E, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+CONDICION, -, -, -, -, -,S_lpar EXC S_rpar, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+EXC, -, -, -,FUNCION VALOR1 EXC1, -, -, -,ID VALOR1 EXC1, -, -, -,Num VALOR1 EXC1, -, -, -, -, -,B EXC1,B EXC1, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+EXC1, -, -, -, -, -, -,e, -,e, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,OP_L EXC,OP_L EXC,OP_L EXC,OP_L EXC,OP_L EXC,OP_L EXC,OP_L EXC,OP_L EXC, -, -, -, -, -, -
+MIENTRAS, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,C_Mientras CONDICION E C_FinMientras E, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+PARA, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,C_Para S_lpar CONDICIONP S_rpar E C_FinPara E, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+CONDICIONP, -, -, -, -, -, -, -, -, -, -, -, -, -,AT ID S_igual Num S_coma EXC S_coma ID SR,AT ID S_igual Num S_coma EXC S_coma ID SR,AT ID S_igual Num S_coma EX  S_coma ID SR,AT ID S_igual Num S_coma EXC S_coma ID SR, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+OP_L, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,S_mayor,S_menor,S_mayorI,S_menorI,S_igualdad,S_desigualdad,S_And,S_Or, -, -, -, -, -, -
+SR, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,S_ascender,S_descender, -, -, -, -
+FUNCION, -, -, -,IFD S_lpar EXF S_rpar, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+EXF, -, -, -,VALOR EXF1, -,VALOR EXF1, -,VALOR EXF1,, -,VALOR EXF1,VALOR EXF1, -, -, -, -, -,VALOR EXF1,VALOR EXF1, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+EXF1, -, -, -, -, -, -,e, -,S_coma EXF, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+LEER, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,P_Leer ID E, -, -, -
+RETORNAR, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,P_Retornar VALOR E, -, -
+ROMPER, -, -, -, -,#¡VALOR!, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -,P_Romper E, -

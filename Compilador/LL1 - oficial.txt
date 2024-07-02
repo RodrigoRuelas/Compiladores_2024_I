@@ -1,0 +1,107 @@
+S -> T_Inicio E T_Fin
+S -> T_Funcion IFD PARAMETRO E T_FinFuncion S
+PARAMETRO -> S_lpar PAR S_rpar
+PAR -> AT ID PAR2
+PAR2 -> S_coma PAR
+PAR2 -> ''
+
+
+E -> VARIABLE
+E -> ACCION
+E -> MOSTRAR
+E -> CONTROL
+E -> FUNCION E
+E -> LEER
+E -> RETORNAR
+E -> ROMPER
+E -> ''
+
+
+MOSTRAR -> P_Mostrar MOS1 E
+MOS1 -> ID MOS2
+MOS1 -> Tex MOS2
+MOS1 -> Num MOS2
+MOS1 -> FUNCION MOS2
+MOS2 -> S_sum MOS1
+MOS2 -> ''
+
+
+VARIABLE -> AT ID EX E
+AT -> A_int
+AT -> A_float
+AT -> A_string
+AT -> A_bool
+B -> Bool_True
+B -> Bool_False
+
+EX -> S_igual VALOR
+EX -> ''
+
+VALOR -> S_lpar VALOR S_rpar VALOR1
+VALOR -> ID VALOR1
+VALOR -> Num VALOR1
+VALOR -> Tex VALOR1
+VALOR -> B
+VALOR -> FUNCION VALOR1
+VALOR1 -> OP VALOR
+VALOR1 -> ''
+
+OP -> S_sum
+OP -> S_res
+OP -> S_multi
+OP -> S_div
+
+
+ACCION -> ID S_igual VALOR E
+
+
+CONTROL -> SI
+CONTROL -> MIENTRAS
+CONTROL -> PARA
+
+
+SI -> C_Si CONDICION E SINO C_FinSi E
+SINO -> C_SiNo E
+SINO -> ''
+CONDICION -> S_lpar EXC S_rpar
+EXC -> ID VALOR1 EXC1
+EXC -> Num VALOR1 EXC1
+EXC -> B EXC1
+EXC -> FUNCION VALOR1 EXC1
+EXC1 -> OP_L EXC
+EXC1 -> ''
+
+MIENTRAS -> C_Mientras CONDICION E C_FinMientras E
+
+PARA -> C_Para S_lpar CONDICIONP S_rpar E C_FinPara E
+CONDICIONP -> AT ID S_igual Num S_coma EXC S_coma ID SR 
+
+OP_L -> S_mayor
+OP_L -> S_menor
+OP_L -> S_mayorI
+OP_L -> S_menorI
+OP_L -> S_igualdad
+OP_L -> S_desigualdad
+OP_L -> S_And
+OP_L -> S_Or
+
+SR -> S_ascender
+SR -> S_descender
+
+FUNCION -> IFD S_lpar EXF S_rpar
+EXF -> VALOR EXF1
+EXF1 -> S_coma EXF
+EXF1 -> ''
+
+
+LEER -> P_Leer ID E
+
+
+RETORNAR -> P_Retornar VALOR E
+
+
+ROMPER -> P_Romper E
+
+
+
+
